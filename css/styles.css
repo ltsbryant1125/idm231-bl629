@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*:before,
+*::after {
+    box-sizing: inherit
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.background {
+    background-image: linear-gradient(to bottom right, hsl(0, 75%, 50%), hsl(0, 0%, 85%));
+}
