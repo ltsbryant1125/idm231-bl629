@@ -19,3 +19,65 @@ body {
 .background {
     background-image: linear-gradient(to bottom right, hsl(0, 75%, 50%), hsl(0, 0%, 85%));
 }
+
+.Button {
+    width: 72px;
+    height: 72px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    opacity: .7;
+}
+
+.Button:hover {
+    opacity: 1;
+}
+
+#tree {
+    background-image: url(../images/);
+}
+
+#turtle {
+    background-image: url(../images/);
+}
+
+#hen {
+    background-image: url(../images/);
+}
+
+#bird {
+    background-image: url(../images/);
+}
+
+#ring {
+    background-image: url(../images/GoldRings_Icon.png);
+}
+
+#geese {
+    background-image: url(../images/);
+}
+
+#swan {
+    background-image: url(../images/);
+}
+
+#maid {
+    background-image: url(../images/);
+}
+
+#lady {
+    background-image: url(../images/);
+}
+
+#lord {
+    background-image: url(../images/);
+}
+
+#pipes {
+    background-image: url(../images/);
+}
+
+#drums {
+    background-image: url(../images/);
+}
