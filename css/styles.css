@@ -17,7 +17,7 @@ body {
 }
 
 .background {
-    background-image: linear-gradient(to bottom right, hsl(0, 75%, 50%), hsl(0, 0%, 85%));
+    background-image: linear-gradient(to bottom right, hsl(210, 100%, 80%), hsl(0, 0%, 85%));
 }
 
 .Button {
@@ -35,19 +35,19 @@ body {
 }
 
 #tree {
-    background-image: url(../images/);
+    background-image: url(../images/PartridgeInATree_Icon.png);
 }
 
 #turtle {
-    background-image: url(../images/);
+    background-image: url(../images/TwoTurtleDoves_Icon.png);
 }
 
 #hen {
-    background-image: url(../images/);
+    background-image: url(../images/ThreeHens_Icon.png);
 }
 
 #bird {
-    background-image: url(../images/);
+    background-image: url(../images/FourCallingBirds_Icon.png);
 }
 
 #ring {
@@ -55,29 +55,29 @@ body {
 }
 
 #geese {
-    background-image: url(../images/);
+    background-image: url(../images/SixGeese_Icon.png);
 }
 
 #swan {
-    background-image: url(../images/);
+    background-image: url(../images/SevenSwans_Icon.png);
 }
 
 #maid {
-    background-image: url(../images/);
+    background-image: url(../images/MaidMilking_Icon.png);
 }
 
 #lady {
-    background-image: url(../images/);
+    background-image: url(../images/NineDancers_Icon.png);
 }
 
 #lord {
-    background-image: url(../images/);
+    background-image: url(../images/TenLords_Icon.png);
 }
 
 #pipes {
-    background-image: url(../images/);
+    background-image: url(../images/ElevenPipers_Icon.png);
 }
 
 #drums {
-    background-image: url(../images/);
+    background-image: url(../images/TwelveDrummers_Icon.png);
 }
