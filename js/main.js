@@ -18,6 +18,23 @@ const lordObj = document.getElementById('lord');
 const pipesObj = document.getElementById('pipes');
 const drumsObj = document.getElementById('drums');
 
+const modal = document.getElementById('modal');
+const btnModal = document.querySelectorAll('.toggle-modal');
+btnModal.forEach(button => {
+    button.addEventListener(
+        'click',
+        () => {
+            modal.hidden = !modal.hidden;
+        },
+        false
+    );
+});
+
+const closeModalObj = document.getElementById('btn-modal=close');
+closeModalObj.addEventListener('click', function() {
+    modal.hidden = !modal.hidden;
+});
+
 treeObj.addEventListener('click', function(evt) {
     console.log('tree button clicked');
 });
@@ -61,3 +78,5 @@ pipesObj.addEventListener('click', function(evt) {
 drumsObj.addEventListener('click', function(evt) {
     console.log('drums button clicked');
 });
+
+
