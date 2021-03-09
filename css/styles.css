@@ -17,7 +17,21 @@ body {
 }
 
 .background {
-    background-image: linear-gradient(to bottom right, hsl(210, 100%, 80%), hsl(0, 0%, 85%));
+    background-image: url(/images/JavaScriptBackgroundImage2.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#userSubmit {
+    width: 72px;
+    height: 31px;
+    background-color: white;
+    cursor: pointer;
 }
 
 .Button {
@@ -67,7 +81,7 @@ body {
 
 .modal-body {
     background-color: #fff;
-    border: 1rem solid skyblue;
+    border: 1rem solid red;
 
     height: 50vh;
     max-width: 50vw;
