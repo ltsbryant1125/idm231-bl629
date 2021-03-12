@@ -9,7 +9,13 @@ html {
     box-sizing: inherit
 }
 
+@font-face {
+    font-family: 'Christmas Bell';
+    src: url(../fonts/Christmas\ Bell\ -\ Personal\ Use.otf)
+}
+
 body {
+    font-family: 'Christmas Bell', serif;
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
@@ -23,14 +29,52 @@ body {
 }
 
 h1 {
+    font-size: 8rem;
     text-align: center;
     color: white;
 }
 
+.form {
+    text-align: center;
+    margin: 6rem;
+}
+
+.button_container {
+    margin: 3rem auto 6rem;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input {
+    height: 50px;
+    width: 200px;
+}
+
 #userSubmit {
-    width: 72px;
+    font-family: sans-serif;
+    width: 70px;
     height: 31px;
+    border: none;
+    text-decoration: none;
     background-color: white;
+    cursor: pointer;
+    margin: 3rem auto 0;
+    border-radius: 8px;
+}
+
+#zMoreInfo {
+    font-family: sans-serif;
+}
+
+.toggle-modal {
+    font-family: sans-serif;
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
     cursor: pointer;
 }
 
