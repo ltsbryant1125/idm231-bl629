@@ -18,24 +18,193 @@ const lordObj = document.getElementById('lord');
 const pipesObj = document.getElementById('pipes');
 const drumsObj = document.getElementById('drums');
 
-const modal = document.getElementById('modal');
-const btnModal = document.querySelectorAll('.toggle-modal');
-btnModal.forEach(button => {
-    button.addEventListener(
-        'click',
-        () => {
-            modal.hidden = !modal.hidden;
-        },
-        false
-    );
+treeObj.addEventListener('click', function(evt) {
+    console.log('tree button clicked' + evt.target.id);
+    const idName = evt.target.id;
+    userPicked(idName);
 });
 
-const closeModalObj = document.getElementById('btn-modal=close');
-//closeModalObj.addEventListener('click', function(){
-//    modal.hidden = !modal.hidden;
-//});
+turtleObj.addEventListener('click', function(evt) {
+    console.log('turtle button clicked' + evt.target.id);
+    const idName = evt.target.id;
+    userPicked(idName);
+});
 
-const userSubmitObj = document.getElementById('userSubmit')
+henObj.addEventListener('click', function(evt) {
+    console.log('hen button clicked' + evt.target.id);
+    const idName = evt.target.id;
+    userPicked(idName);
+});
+
+birdObj.addEventListener('click', function(evt) {
+    console.log('bird button clicked' + evt.target.id);
+    const idName = evt.target.id;
+    userPicked(idName);
+});
+
+ringObj.addEventListener('click', function(evt) {
+    console.log('ring button clicked' + evt.target.id);
+    const idName = evt.target.id;
+    userPicked(idName);
+});
+
+geeseObj.addEventListener('click', function(evt) {
+    console.log('geese button clicked' + evt.target.id);
+    const idName = evt.target.id;
+    userPicked(idName);
+});
+
+swanObj.addEventListener('click', function(evt) {
+    console.log('swan button clicked' + evt.target.id);
+    const idName = evt.target.id;
+    userPicked(idName);
+});
+
+maidObj.addEventListener('click', function(evt) {
+    console.log('maid button clicked' + evt.target.id);
+    const idName = evt.target.id;
+    userPicked(idName);
+});
+
+ladyObj.addEventListener('click', function(evt) {
+    console.log('lady button clicked' + evt.target.id);
+    const idName = evt.target.id;
+    userPicked(idName);
+});
+
+lordObj.addEventListener('click', function(evt) {
+    console.log('lord button clicked' + evt.target.id);
+    const idName = evt.target.id;
+    userPicked(idName);
+});
+
+pipesObj.addEventListener('click', function(evt) {
+    console.log('pipes button clicked' + evt.target.id);
+    const idName = evt.target.id;
+    userPicked(idName);
+});
+
+drumsObj.addEventListener('click', function(evt) {
+    console.log('drums button clicked' + evt.target.id);
+    const idName = evt.target.id;
+    userPicked(idName);
+});
+
+function userPicked(whichOne) {
+  console.log('userPicked called: ' + whichOne);
+  switch (whichOne) {
+    case 'tree':
+      zDisplayObj.src = 'images/PartridgeInATree_Hero.png';
+      zTitleObj.innerHTML = 'A Partridge In A Pear Tree';
+      zDateRangeObj.innerHTML = '20-January to 18-February';
+      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      modal.hidden = !modal.hidden;
+      break;
+    case 'turtle':
+      zDisplayObj.src = 'images/TwoTurtleDoves_Hero.png';
+      zTitleObj.innerHTML = 'Two Turtle Doves';
+      zDateRangeObj.innerHTML = '19-February to 20-March';
+      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      modal.hidden = !modal.hidden;
+      break;
+    case 'hen':
+      zDisplayObj.src = 'images/ThreeHens_Hero.png';
+      zTitleObj.innerHTML = 'Three French Hens';
+      zDateRangeObj.innerHTML = '21-March to 19-April';
+      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      modal.hidden = !modal.hidden;
+      break;
+    case 'bird':
+      zDisplayObj.src = 'images/FourCallingBirds_Hero.png';
+      zTitleObj.innerHTML = 'Four Calling Birds';
+      zDateRangeObj.innerHTML = '20-April to 20-May';
+      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      modal.hidden = !modal.hidden;
+      break;
+    case 'ring':
+      zDisplayObj.src = 'images/GoldRings_Hero.png';
+      zTitleObj.innerHTML = 'Five Gold Rings';
+      zDateRangeObj.innerHTML = '21-May to 21-June';
+      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      modal.hidden = !modal.hidden;
+      break;
+    case 'geese':
+      zDisplayObj.src = 'images/SixGeese_Hero.png';
+      zTitleObj.innerHTML = 'Six Geese A-Laying';
+      zDateRangeObj.innerHTML = '22-June to 22-July';
+      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      modal.hidden = !modal.hidden;
+      break;
+    case 'swan':
+      zDisplayObj.src = 'images/SevenSwans_Hero.png';
+      zTitleObj.innerHTML = 'Seven Swans A-Swimming';
+      zDateRangeObj.innerHTML = '23-July to 22-August';
+      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      modal.hidden = !modal.hidden;
+      break;
+    case 'maid':
+      zDisplayObj.src = 'images/MaidMilking_Hero.png';
+      zTitleObj.innerHTML = 'Eight Maids A-Milking';
+      zDateRangeObj.innerHTML = '23-August to 22-September';
+      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      modal.hidden = !modal.hidden;
+      break;
+    case 'lady':
+      zDisplayObj.src = 'images/NineDancers_Hero.png';
+      zTitleObj.innerHTML = 'Nine Dancers Dancing';
+      zDateRangeObj.innerHTML = '23-September to 23-October';
+      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      modal.hidden = !modal.hidden;
+      break;
+    case 'lord':
+      zDisplayObj.src = 'images/TenLords_Hero.png';
+      zTitleObj.innerHTML = 'Ten Lords A-Leaping';
+      zDateRangeObj.innerHTML = '24-October to 21-November';
+      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      modal.hidden = !modal.hidden;
+      break;
+    case 'pipes':
+      zDisplayObj.src = 'images/ElevenPipers_Hero.png';
+      zTitleObj.innerHTML = 'Eleven Pipers Piping';
+      zDateRangeObj.innerHTML = '22-November to 21-December';
+      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      modal.hidden = !modal.hidden;
+      break;
+    case 'drums':
+      zDisplayObj.src = 'images/TwelveDrummers_Hero.png';
+      zTitleObj.innerHTML = 'Twelve Drummers Drumming';
+      zDateRangeObj.innerHTML = '22-December to 19-January';
+      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      modal.hidden = !modal.hidden;
+      break;
+  default: 
+  }
+}
+
+const modal = document.getElementById('modal');
+
+const closeModalObj = document.getElementById('btn-modal-close');
+closeModalObj.addEventListener('click', function(){
+  modal.hidden = !modal.hidden;
+});
+
+const zDisplayObj = document.getElementById('zDisplayImg');
+const zTitleObj = document.getElementById('zTitle');
+const zDateRangeObj = document.getElementById('zDateRange');
+const zMoreINfoObj = document.getElementById('zMoreInfo');
+
+// const btnModal = document.querySelectorAll('.toggle-modal');
+// btnModal.forEach(button => {
+//   button.addEventListener(
+//     'click',
+//     () => {
+//       modal.hidden = !modal.hidden;
+//     },
+//     false
+//     );
+//   });
+  
+const userSubmitObj = document.getElementById('userSubmit');
 
 userSubmitObj.addEventListener('click', function(){
     console.log('User submit button clicked');
@@ -51,7 +220,7 @@ userSubmitObj.addEventListener('click', function(){
     console.log('whichDayOfMonth is: ' + whichDayOfMonth)
 
     let AstroSign = "";
-
+    
     if ((whichMonth == 12 && whichDayOfMonth >= 22) || (whichMonth == 1 && whichDayOfMonth <= 19)) {
         AstroSign = "drums";
       } else if ((whichMonth == 11 && whichDayOfMonth >= 22) || (whichMonth == 12 && whichDayOfMonth <= 21)) {
@@ -78,56 +247,7 @@ userSubmitObj.addEventListener('click', function(){
         AstroSign = "tree";
       }
 
-      //console.log('AstroSign is: ' + AstroSign);
-      //userPicked(AstroSign);
-})
-
-treeObj.addEventListener('click', function(evt) {
-    console.log('tree button clicked');
+      console.log('AstroSign is: ' + AstroSign);
+      userPicked(AstroSign);
 });
-
-turtleObj.addEventListener('click', function(evt) {
-    console.log('turtle button clicked');
-});
-
-henObj.addEventListener('click', function(evt) {
-    console.log('hen button clicked');
-});
-
-birdObj.addEventListener('click', function(evt) {
-    console.log('bird button clicked');
-});
-
-ringObj.addEventListener('click', function(evt) {
-    console.log('ring button clicked');
-});
-
-geeseObj.addEventListener('click', function(evt) {
-    console.log('geese button clicked');
-});
-
-swanObj.addEventListener('click', function(evt) {
-    console.log('swan button clicked');
-});
-
-maidObj.addEventListener('click', function(evt) {
-    console.log('maid button clicked');
-});
-
-ladyObj.addEventListener('click', function(evt) {
-    console.log('lady button clicked');
-});
-
-lordObj.addEventListener('click', function(evt) {
-    console.log('lord button clicked');
-});
-
-pipesObj.addEventListener('click', function(evt) {
-    console.log('pipes button clicked');
-});
-
-drumsObj.addEventListener('click', function(evt) {
-    console.log('drums button clicked');
-});
-
 
