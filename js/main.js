@@ -192,17 +192,6 @@ const zDisplayObj = document.getElementById('zDisplayImg');
 const zTitleObj = document.getElementById('zTitle');
 const zDateRangeObj = document.getElementById('zDateRange');
 const zMoreINfoObj = document.getElementById('zMoreInfo');
-
-// const btnModal = document.querySelectorAll('.toggle-modal');
-// btnModal.forEach(button => {
-//   button.addEventListener(
-//     'click',
-//     () => {
-//       modal.hidden = !modal.hidden;
-//     },
-//     false
-//     );
-//   });
   
 const userSubmitObj = document.getElementById('userSubmit');
 
