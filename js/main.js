@@ -3,7 +3,9 @@ var dob_month; //dob: month value
 var dob_day; //dob: day value
 var selected_sign; //Currently selected sign
 
-function playSound() {}
+const soundButtons = document.querySelectorAll('.soundtrack');
+const soundStopButton = document.getElementById('btn-stop-sounds');
+const speakers = document.getElementById('speakers');
 
 const treeObj = document.getElementById('tree');
 const turtleObj = document.getElementById('turtle');
@@ -239,4 +241,3 @@ userSubmitObj.addEventListener('click', function(){
       console.log('AstroSign is: ' + AstroSign);
       userPicked(AstroSign);
 });
-
