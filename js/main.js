@@ -110,7 +110,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = 'images/PartridgeInATree_Hero.png';
       zTitleObj.innerHTML = 'A Partridge In A Pear Tree';
       zDateRangeObj.innerHTML = '20-January to 18-February';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfo.innerHTML = "<p>You have received a Partridge in a Pear Tree! It's thought that the partridge represents the birth of Jesus Christ because that bird is willing to sacrifice its life to protect its young.</p>";
       stopAllAudio();
       sndTreeObj.play();
       modal.hidden = !modal.hidden;
@@ -119,7 +119,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = 'images/TwoTurtleDoves_Hero.png';
       zTitleObj.innerHTML = 'Two Turtle Doves';
       zDateRangeObj.innerHTML = '19-February to 20-March';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfo.innerHTML = "<p>You have received Two Turtle Doves! It's thought that the two turtle doves represent the Old and New Testament of the Bible. The doves are the biblical roadmap that is available to everyone.</p>";
       stopAllAudio();
       sndTurtleObj.play();
       modal.hidden = !modal.hidden;
@@ -128,7 +128,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = 'images/ThreeHens_Hero.png';
       zTitleObj.innerHTML = 'Three French Hens';
       zDateRangeObj.innerHTML = '21-March to 19-April';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfo.innerHTML = "<p>You have received Three French Hens! It's thought that the three french hens represent the three theological virtues: Faith, Hope, and Love.</p>";
       stopAllAudio();
       sndHenObj.play();
       modal.hidden = !modal.hidden;
@@ -137,7 +137,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = 'images/FourCallingBirds_Hero.png';
       zTitleObj.innerHTML = 'Four Calling Birds';
       zDateRangeObj.innerHTML = '20-April to 20-May';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfo.innerHTML = "<p>You have received the Four Calling Birds! It's thought that the four calling birds represent the four gospels of Matthew, Mark, Luke, and John.</p>";
       stopAllAudio();
       sndBirdObj.play();
       modal.hidden = !modal.hidden;
@@ -146,7 +146,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = 'images/GoldRings_Hero.png';
       zTitleObj.innerHTML = 'Five Gold Rings';
       zDateRangeObj.innerHTML = '21-May to 21-June';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfo.innerHTML = "<p>You have received Five Golden Rings! It's thought that the five gold rings represent the first five books of the Old Testament, which describe man's fall into sin and the great love of God in sending a Savior.</p>";
       stopAllAudio();
       sndRingObj.play();
       modal.hidden = !modal.hidden;
@@ -155,7 +155,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = 'images/SixGeese_Hero.png';
       zTitleObj.innerHTML = 'Six Geese A-Laying';
       zDateRangeObj.innerHTML = '22-June to 22-July';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfo.innerHTML = "<p>You have received the Six Geese-A-Laying! It's thought that the six geese represent the six days of creation, representing the birth of new life.</p>";
       stopAllAudio();
       sndGeeseObj.play();
       modal.hidden = !modal.hidden;
@@ -164,7 +164,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = 'images/SevenSwans_Hero.png';
       zTitleObj.innerHTML = 'Seven Swans A-Swimming';
       zDateRangeObj.innerHTML = '23-July to 22-August';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfo.innerHTML = "<p>You have received the Seven Swans-A-Swimming! It's thought that the seven swans represent the seven sacraments of the Holy Spirit: Prophecy, Serving, Teaching, Exhortation, Contribution, Leadership, and Mercy.</p>";
       stopAllAudio();
       sndSwansObj.play();
       modal.hidden = !modal.hidden;
@@ -173,7 +173,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = 'images/MaidMilking_Hero.png';
       zTitleObj.innerHTML = 'Eight Maids A-Milking';
       zDateRangeObj.innerHTML = '23-August to 22-September';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfo.innerHTML = "<p>You have received the Eight Maids Maids-A-Milking! It's thought that the eight maids represent the Eight Beatitudes, the most concise summary of the spiritual life of man.</p>";
       stopAllAudio();
       sndMaidsObj.play();
       modal.hidden = !modal.hidden;
@@ -182,7 +182,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = 'images/NineDancers_Hero.png';
       zTitleObj.innerHTML = 'Nine Ladies Dancing';
       zDateRangeObj.innerHTML = '23-September to 23-October';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfo.innerHTML = "<p>You have received the Ladies Dancing! It's thought that the nine ladies dancing represent the nine fruits of the Holy Spirit: Charity, Joy, Peace, Patience, Kindness, Mildness, Fidelity, Modesty, and Chastity.</p>";
       stopAllAudio();
       sndLadyObj.play();
       modal.hidden = !modal.hidden;
@@ -191,7 +191,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = 'images/TenLords_Hero.png';
       zTitleObj.innerHTML = 'Ten Lords A-Leaping';
       zDateRangeObj.innerHTML = '24-October to 21-November';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfo.innerHTML = "<p>You have received the Ten Lords-A-Leaping! It's thought that the ten lords leaping represent the ten commandments given to Moses on Mount Sinai by God.</p>";
       stopAllAudio();
       sndLordObj.play();
       modal.hidden = !modal.hidden;
@@ -200,7 +200,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = 'images/ElevenPipers_Hero.png';
       zTitleObj.innerHTML = 'Eleven Pipers Piping';
       zDateRangeObj.innerHTML = '22-November to 21-December';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfo.innerHTML = "<p>You have received the Eleven Pipers Piping! It's thought that the eleven pipers represent the eleven faithful Apostles. This does not include Judas, we don't like that guy.</p>";
       stopAllAudio();
       sndPipesObj.play();
       modal.hidden = !modal.hidden;
@@ -209,16 +209,19 @@ function userPicked(whichOne) {
       zDisplayObj.src = 'images/TwelveDrummers_Hero.png';
       zTitleObj.innerHTML = 'Twelve Drummers Drumming';
       zDateRangeObj.innerHTML = '22-December to 19-January';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfo.innerHTML = "<p>You have received the Twelve Drummers Drumming! It's thought that the twelve  drummers represent the 12 points of the doctrine in the Apostles' Creed.</p>";
       stopAllAudio();
       sndDrumsObj.play();
       modal.hidden = !modal.hidden;
       break;
+    default: 
     case 'help':
+      zDisplayObj.src = 'images/InfoIcon72.png';
       zTitleObj.innerHTML = 'How to use';
+      zDateRangeObj.innerHTML = '';
       zMoreInfo.innerHTML = "<p>Simply input your birthday and find out what gift you'll get this Christmas!<p>";
       modal.hidden = !modal.hidden;
-  default: 
+      break;
   }
 }
 
