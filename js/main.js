@@ -3,10 +3,6 @@ var dob_month; //dob: month value
 var dob_day; //dob: day value
 var selected_sign; //Currently selected sign
 
-const soundButtons = document.querySelectorAll('.soundtrack');
-const soundStopButton = document.getElementById('btn-stop-sounds');
-const speakers = document.getElementById('speakers');
-
 const treeObj = document.getElementById('tree');
 const turtleObj = document.getElementById('turtle');
 const henObj = document.getElementById('hen');
@@ -92,6 +88,19 @@ drumsObj.addEventListener('click', function(evt) {
     userPicked(idName);
 });
 
+const sndTreeObj=document.getElementById('sndTree');
+const sndTurtleObj=document.getElementById('sndTurtle');
+const sndHenObj=document.getElementById('sndHen');
+const sndBirdObj=document.getElementById('sndBird');
+const sndRingObj=document.getElementById('sndRing');
+const sndGeeseObj=document.getElementById('sndGeese');
+const sndSwansObj=document.getElementById('sndSwans');
+const sndMaidsObj=document.getElementById('sndMaids');
+const sndLadyObj=document.getElementById('sndLady');
+const sndLordObj=document.getElementById('sndLord');
+const sndPipesObj=document.getElementById('sndPipes');
+const sndDrumsObj=document.getElementById('sndDrums');
+
 function userPicked(whichOne) {
   console.log('userPicked called: ' + whichOne);
   switch (whichOne) {
@@ -100,6 +109,7 @@ function userPicked(whichOne) {
       zTitleObj.innerHTML = 'A Partridge In A Pear Tree';
       zDateRangeObj.innerHTML = '20-January to 18-February';
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      sndTreeObj.play();
       modal.hidden = !modal.hidden;
       break;
     case 'turtle':
@@ -107,6 +117,7 @@ function userPicked(whichOne) {
       zTitleObj.innerHTML = 'Two Turtle Doves';
       zDateRangeObj.innerHTML = '19-February to 20-March';
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      sndTurtleObj.play();
       modal.hidden = !modal.hidden;
       break;
     case 'hen':
@@ -114,6 +125,7 @@ function userPicked(whichOne) {
       zTitleObj.innerHTML = 'Three French Hens';
       zDateRangeObj.innerHTML = '21-March to 19-April';
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      sndHenObj.play();
       modal.hidden = !modal.hidden;
       break;
     case 'bird':
@@ -121,6 +133,7 @@ function userPicked(whichOne) {
       zTitleObj.innerHTML = 'Four Calling Birds';
       zDateRangeObj.innerHTML = '20-April to 20-May';
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      sndBirdObj.play();
       modal.hidden = !modal.hidden;
       break;
     case 'ring':
@@ -128,6 +141,7 @@ function userPicked(whichOne) {
       zTitleObj.innerHTML = 'Five Gold Rings';
       zDateRangeObj.innerHTML = '21-May to 21-June';
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      sndRingObj.play();
       modal.hidden = !modal.hidden;
       break;
     case 'geese':
@@ -135,6 +149,7 @@ function userPicked(whichOne) {
       zTitleObj.innerHTML = 'Six Geese A-Laying';
       zDateRangeObj.innerHTML = '22-June to 22-July';
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      sndGeeseObj.play();
       modal.hidden = !modal.hidden;
       break;
     case 'swan':
@@ -142,6 +157,7 @@ function userPicked(whichOne) {
       zTitleObj.innerHTML = 'Seven Swans A-Swimming';
       zDateRangeObj.innerHTML = '23-July to 22-August';
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      sndSwansObj.play();
       modal.hidden = !modal.hidden;
       break;
     case 'maid':
@@ -149,13 +165,15 @@ function userPicked(whichOne) {
       zTitleObj.innerHTML = 'Eight Maids A-Milking';
       zDateRangeObj.innerHTML = '23-August to 22-September';
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      sndMaidsObj.play();
       modal.hidden = !modal.hidden;
       break;
     case 'lady':
       zDisplayObj.src = 'images/NineDancers_Hero.png';
-      zTitleObj.innerHTML = 'Nine Dancers Dancing';
+      zTitleObj.innerHTML = 'Nine Ladies Dancing';
       zDateRangeObj.innerHTML = '23-September to 23-October';
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      sndLadyObj.play();
       modal.hidden = !modal.hidden;
       break;
     case 'lord':
@@ -163,6 +181,7 @@ function userPicked(whichOne) {
       zTitleObj.innerHTML = 'Ten Lords A-Leaping';
       zDateRangeObj.innerHTML = '24-October to 21-November';
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      sndLordObj.play();
       modal.hidden = !modal.hidden;
       break;
     case 'pipes':
@@ -170,6 +189,7 @@ function userPicked(whichOne) {
       zTitleObj.innerHTML = 'Eleven Pipers Piping';
       zDateRangeObj.innerHTML = '22-November to 21-December';
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      sndPipesObj.play();
       modal.hidden = !modal.hidden;
       break;
     case 'drums':
@@ -177,6 +197,7 @@ function userPicked(whichOne) {
       zTitleObj.innerHTML = 'Twelve Drummers Drumming';
       zDateRangeObj.innerHTML = '22-December to 19-January';
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      sndDrumsObj.play();
       modal.hidden = !modal.hidden;
       break;
   default: 
