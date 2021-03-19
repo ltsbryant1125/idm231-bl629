@@ -28,7 +28,7 @@ body {
 }
 
 .background {
-    background-image: url(/images/JavaScriptBackgroundImage2.jpg);
+    background-image: url(../images/JavaScriptBackgroundImage2.jpg);
     height: 100%;
     background-size: cover;
 }
