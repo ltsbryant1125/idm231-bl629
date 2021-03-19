@@ -45,8 +45,8 @@ h1 {
 }
 
 .button_container {
-    margin: 3rem auto 6rem;
-    max-width: 500px;
+    margin: 3rem auto 3rem;
+    max-width: 700px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -83,9 +83,19 @@ h1 {
     cursor: pointer;
 }
 
-.Button {
+.infoButton{
     width: 72px;
     height: 72px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    opacity: .7;
+}
+
+.Button {
+    width: 100px;
+    height: 100px;
     border: none;
     background-color: transparent;
     cursor: pointer;
