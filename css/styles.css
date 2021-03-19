@@ -36,7 +36,7 @@ h1 {
 
 .form {
     text-align: center;
-    margin: 6rem;
+    margin: 3rem 6rem 6rem;
 }
 
 .button_container {
@@ -150,6 +150,10 @@ h1 {
     font-size: 2rem;
     font-weight: 300;
     text-align: center;
+}
+
+#help {
+    background-image: url(../images/InfoIcon72.png);
 }
 
 #tree {

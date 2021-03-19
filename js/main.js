@@ -10,6 +10,13 @@ const ladyObj = document.getElementById('lady');
 const lordObj = document.getElementById('lord');
 const pipesObj = document.getElementById('pipes');
 const drumsObj = document.getElementById('drums');
+const helpObj = document.getElementById('help');
+
+helpObj.addEventListener('click', function(evt) {
+  console.log('help button clicked' + evt.target.id);
+  const idName = evt.target.id;
+  userPicked(idName);
+});
 
 treeObj.addEventListener('click', function(evt) {
     console.log('tree button clicked' + evt.target.id);
@@ -207,6 +214,10 @@ function userPicked(whichOne) {
       sndDrumsObj.play();
       modal.hidden = !modal.hidden;
       break;
+    case 'help':
+      zTitleObj.innerHTML = 'How to use';
+      zMoreInfo.innerHTML = "<p>Simply input your birthday and find out what gift you'll get this Christmas!<p>";
+      modal.hidden = !modal.hidden;
   default: 
   }
 }
